@@ -321,11 +321,21 @@ sed -n -e '1,5p' file23
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
+<img width="246" height="74" alt="image" src="https://github.com/user-attachments/assets/c2d2dd19-5aa3-4940-ac65-35d9e485903a" />
+
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+
+
+
+
+
+
+
+
 
 
 
