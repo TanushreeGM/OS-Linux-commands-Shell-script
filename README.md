@@ -1,4 +1,4 @@
-<img width="180" height="62" alt="image" src="https://github.com/user-attachments/assets/8bcce4fa-a5b0-4d4a-a202-a388a165ec66" /># OS-Linux-commands-Shell-scripting
+# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -328,12 +328,6 @@ sed -n -e '2,/Joe/p' file23
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
-
-
-
-
-
 
 
 
