@@ -332,9 +332,9 @@ sed -n -e '/tom/,/Joe/p' file23
 
 
 
-
 seq 10 
 ## OUTPUT
+
 
 
 
@@ -356,7 +356,6 @@ seq 3 | sed '2a hello'
 seq 2 | sed '2i hello'
 ## OUTPUT
 
-
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
@@ -364,9 +363,6 @@ seq 10 | sed '2,9c hello'
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
-
-
-sed -n '2,4{s/$/*/;p}' file23
 
 
 #Sorting File content
